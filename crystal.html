@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="crystal.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Crystal Collector Game WOOOOO</h1>
+	</div>
+	<div class="Directions">
+		<h2>Directions for the Crystal Game</h2>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+			<li>Below, there are four crystals with different number values.</li>
+			<ul>
+				<li id="blue">Blue</li>
+				<li id="green">Green</li>
+                <li id="yellow">Yellow</li>
+                <li id="red">Red</li>
+			</ul>
+            <li>Find out the value of each crystal by clicking on them respectively. </li>
+            <li>Each time you click on a crystal, that crystal's points gets added to your total.</li>
+			<li>If you match your total to the random number exactly, you win.</li>
+			<li>If your total score exceeds the random number, you lose.</li>
+			<li>Upon refreshing the page, the random number as well as the individual crystal values changes.</li>
+		</ol>
+	</div>
+	<div class="numberExact">
+		<h3>Number to match exactly:
+			<span id= "randomCount"></span>
+		</h3>
+	</div>
+	
+	
+	<div class="YourTotal">
+		<h2>Your total score is:
+			<span id="Total"></span>
+        </h2>
+    </div>
+    <div class="WinsLosses">
+		<h3>Wins:
+			<span id= "WinTotal"></span>
+			</br>
+			Losses: 
+			<span id= "LossesTotal"></span>
+		</h3>
+	</div>
+    <br>
+    <div class="crystals">
+		<img src="blue.png" class=crystalpic id="blueC" alt="Blue C">
+		<img src="green.png" class=crystalpic id="greenC" alt="Green C">
+		<img src="red.png" class=crystalpic id= "redC" alt="Red C">
+		<img src="yellow.png" class=crystalpic id= "yellowC" alt="Yellow C">
+    </div>
+  
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="crystal.js"></script>
+</body>
+</html>
