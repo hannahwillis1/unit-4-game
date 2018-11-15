@@ -1,0 +1,102 @@
+#blue {
+  color: blue;
+}
+#green {
+  color: green;
+}
+#red {
+  color: red;
+}
+#yellow {
+  color: yellow;
+}
+.crystalpic {
+  height: 60px;
+  margin: 10px;
+}
+
+body {
+  background-image: url("background.jpg");
+  float: center;
+}
+
+div {
+  background-color: pink;
+  color: white;
+  width: 70%;
+  margin: 15px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+  text-align: center;
+  float: center;
+}
+
+ol {
+  list-style: upper-roman;
+  list-style-position: inside;
+  font-weight: bold;
+  text-align: center;
+}
+ul {
+  list-style: lower-roman;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.header {
+  background-color: teal;
+  margin-left: 50px;
+  text-align: center;
+}
+
+div.crystals {
+  background-color: teal;
+  margin-left: 50px;
+}
+
+.directions {
+  width: 80%;
+}
+
+.numberExact {
+  float: left;
+  width: 15%;
+  height: 100px;
+}
+
+.WinsLosses {
+  float: left;
+  width: 15%;
+  height: 100px;
+}
+
+div {
+  border: dashed 5px blueviolet;
+  padding: 5px;
+  float: center;
+}
+
+h1 {
+  font-size: 25pt;
+  width: 80%;
+  font-weight: bold;
+  text-align: left;
+}
+h2 {
+  font-size: 15pt;
+  width: 80%;
+  font-weight: bold;
+  text-align: left;
+  float: center;
+}
+.YourTotal {
+  float: left;
+  width: 15%;
+  height: 100px;
+}
+.crystals {
+  clear: both;
+}
